@@ -1,6 +1,4 @@
 
-
-
 // TOOLS
 // mixins et fonctions utilisés globalement dans le SCSS (Sass)
 
@@ -9,24 +7,34 @@
 // SETTINGS
 // Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
 
-
-
+  @import "settings/colors";
+  @import "settings/fonts";
+  @import "settings/spacing";
 
 // GENERIC
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
 
-
-
+  @import "generic/reset";
+/*@import "normalize";*/
 
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
+
+  @import "elements/body";
+  @import "elements/heading";
+  @import "elements/links";
 
 
 
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
-
+  @import "components/header";
+  @import "components/wrapper";
+  @import "components/footer";
+  @import "components/bouton";
+  @import "components/hero";
+  @import "components/nav";
 
 
 

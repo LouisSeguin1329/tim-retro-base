@@ -1,0 +1,42 @@
+.conteneur .cartes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+
+.carte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: var(--white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.citation{
+  background: url("../../../images/bg-citation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 404px;
+  background-position: center;
+
+  color: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.citation h3{
+  color: var(--white);
+}
+
+.citation p, .citation h3{
+  text-align: left;
+}
+
